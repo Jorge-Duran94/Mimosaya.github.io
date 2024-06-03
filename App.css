@@ -1,0 +1,32 @@
+#root {
+  max-width: 1100px; /* Ajuste del ancho máximo */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: rgb(45, 45, 45);
+  background: linear-gradient(90deg, rgba(45, 45, 45, 1) 0%, rgba(75, 0, 0, 1) 100%);
+  color: #d9d9d9;
+}
+
+.logo {
+  width: 240px; /* Ancho ajustado */
+  padding: 1.5em; /* Espaciado */
+}
+
+.logo.react {
+  width: 250px; /* Ajuste específico para la clase .react */
+}
+
+.card {
+  margin: 20px; /* Espaciado */
+  width: 300px; /* Ancho ajustado */
+  background-color: #f8f8f8; /* Fondo de tarjeta más claro */
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  overflow: hidden;
+}
+
+.read-the-docs {
+  color: #888;
+}

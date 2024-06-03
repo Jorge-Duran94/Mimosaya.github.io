@@ -1,0 +1,75 @@
+.card {
+  margin-left: 10px; /* Ajuste del margen */
+  margin-right: 10px; /* Ajuste del margen */
+  margin-top: 15px;
+  margin-bottom: 20px; /* Ajuste del margen */
+  width: 300px; /* Ajuste del ancho */
+  background-color: #f8f8f8; /* Fondo de tarjeta más claro */
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  color: #333; /* Texto oscuro */
+}
+
+.price {
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #d4af37; /* Color dorado */
+}
+
+.desc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.625;
+  color: #666; /* Texto gris */
+}
+
+.lists {
+  margin-bottom: 1.5rem;
+  flex: 1 1 0%;
+  color: #666; /* Texto gris */
+}
+
+.lists .list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+.lists .list svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  color: #d4af37; /* Icono dorado */
+}
+
+.action {
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: #d4af37; /* Fondo dorado */
+  padding: 0.75rem 1.25rem; /* Ajuste del espaciado */
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #333; /* Texto oscuro */
+}
+
+#smaller {
+  font-size: 25px;
+}
